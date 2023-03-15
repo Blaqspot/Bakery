@@ -1,0 +1,185 @@
+nav{
+    background-color: #333;
+    
+    padding: 1em;
+   color: white;
+   width: auto;
+   
+}
+
+nav ul li{
+display: inline;
+padding: 1em;
+
+}
+nav ul a{
+    color: white;
+    text-decoration: none;
+
+}
+
+/*nav animation*/
+nav ul li:hover{
+    cursor: pointer;
+    display: inline;
+    padding: 1em;
+    color: orange;
+}
+nav ul li:active {
+    display: inline;
+    padding: 1em;
+    background-color: red;
+}
+/* styles for header*/
+header{
+    background-image:url(../pictures/free.jpg);
+    padding: 10em;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+}
+ header h1 {
+    width: 40%;
+    padding: 2em;
+    background-color: wheat;
+    border-radius: 12px;
+
+ }
+
+button{
+    transition: 400ms;
+    cursor: pointer;
+    padding: 1em;
+    border-radius: 12px;
+    border: none;
+    background-color: blue;
+    color: white;
+    box-shadow: 0px 0px 12px 0px gainsboro;
+ }
+
+button:active{
+    transition: 400ms;
+    transform: translateY(1em);
+    cursor: pointer;
+    padding: 1em;
+    border-radius: 12px;
+    border: none;
+    background-color: pink;
+    color: white;
+    box-shadow: 0px 0px 12px 0px #333;
+ }
+
+ 
+
+ /*body*/
+
+ .body{
+    padding: 1em;
+    text-align: justify;
+    line-height: 20px;
+
+ }
+
+ .body .promo-section {
+   /* background-color: yellow;*/
+    padding: 2em;
+ }
+
+ .body .promo-section h2{
+    text-align: center;
+
+ }
+
+ .body .promo-section .promo-cards-box {
+    /*background-color: pink;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+ }
+
+ .body .promo-section .promo-cards-box .promo-cards:hover{
+    box-shadow: 0px 6px 9px 0px;
+    padding: 1em;
+    width: 13em;
+    border-radius: 12px;
+    margin: 1em;
+    background-color: gainsboro;
+ }
+
+ .body .promo-section .promo-cards-box .promo-cards {
+   /* background-color: brown;*/
+    padding: 1em;
+    width: 13em;
+    border-radius: 12px;
+    margin: 1em;
+    background-color: gainsboro;
+    
+ }
+
+ .body .promo-section .promo-cards-box .promo-cards img{
+    width: 100%;
+    border-radius: 12px;
+    
+
+ }
+
+ .body .promo-section .promo-cards-box .promo-cards .cards-info{
+    text-align: center;
+
+ }
+
+
+/* media query for desktop */
+ @media screen and (max-width: 1600px){
+    header h1 {
+        width: 40%;
+        padding: 2em;
+        background-color: wheat;
+        border-radius: 12px;
+        font-size: 3em;
+        color: crimson;
+    
+     }
+    
+ }
+
+ /* media query for tablet */
+@media screen and (max-width: 820px) {
+    header h1 {
+        width: 40%;
+        padding: 2em;
+        background-color: wheat;
+        border-radius: 12px;
+        font-size: 1.5em;
+        color: blue;
+    
+     }
+}
+
+/* media query for smaller screen */
+@media screen and (max-width: 414px) {
+    header h1 {
+        width: 100%;
+        padding: 2em;
+        background-color: wheat;
+        border-radius: 12px;
+        font-size: 12px;
+        color: green;
+        display: none;
+
+    
+     }
+} 
+
+
+footer{
+    background-color: #333;
+    padding: 3em;
+    color: white;
+}
+
+footer .footer{
+    text-align: center;
+}
